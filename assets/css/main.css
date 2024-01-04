@@ -585,6 +585,14 @@ body {
 
 /* Portfolio
 --------------------------------------------------------------*/
+.portfolio__img{
+  border-radius: 10px; /* You can adjust the value based on how much rounding you want */
+  overflow: hidden;   /* Ensure content inside the container doesn't protrude */
+  display: block;     /* Ensures the image is treated as a block-level element */
+}
+
+
+
 .portfolio__project {
   position: relative;
   width: 100%;
@@ -874,9 +882,11 @@ body {
   color: var(--color-white);
 }
 
-.contact__description {
-  color: var(--color-gray-lighten);
+.contact__description a {
+  color: white !important;
+  text-decoration: none;
 }
+
 
 /* Footer
 --------------------------------------------------------------*/
