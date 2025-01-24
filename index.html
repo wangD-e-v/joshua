@@ -646,12 +646,18 @@ Front-End Development: Seamlessly translate designs into code. As a developer, I
             </div>
         </div>
         <div class="footer__copyright container">
-            <p>&copy; Copyright 2024 Joshua. @All rights reserved.</p>
+            <p>&copy; Copyright <span id="year"></span> Joshua. @All rights reserved.</p>
         </div>
     </footer>
     <a href="#" id="scrolltop" class="scrolltop">
         <i class="ri-arrow-up-line"></i>
     </a>
+    <!--Year Auto Update-->
+    <script>
+        // JavaScript to set the current year
+        const currentYear = new Date().getFullYear();
+        document.getElementById("year").textContent = currentYear;
+      </script>
 
     <!--=================== SwiperJS  ====================-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
