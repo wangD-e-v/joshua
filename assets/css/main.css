@@ -627,7 +627,7 @@ body {
   right: -100%;
   width: 5rem;
   height: 5rem;
-  background-color: var(--color-white);
+  background-color: black;
   color: var(--color-title);
   border-radius: 50%;
   display: flex;

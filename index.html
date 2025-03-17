@@ -7,7 +7,20 @@
     <!--==================== Favicon ========================-->
     <link rel="icon" href="assets/img/J.png" type="image/png">
 
-    <title>Joshua Fernandez Añora</title>
+    <title>Joshua Añora</title>
+
+    <style>
+        .home__title {
+            font-size: 2em;
+        }
+        .typing {
+            color: var(--color-primary);
+            font-weight: bold;
+            border-right: 3px solid var(--color-primary); /* Blinking cursor effect */
+            padding-right: 5px;
+            display: inline-block;
+        }
+    </style>
 
      <!-- Include the JavaScript library (SMTPJS) -->
      <script src="https://smtpjs.com/v3/smtp.js"></script>
@@ -62,11 +75,7 @@
                             <i class="ri-folders-line nav__icon"></i>
                             Portfolio</a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#blog" class="nav__link">
-                            <i class="ri-message-line nav__icon"></i>
-                            Blog</a>
-                    </li>
+                    
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
                             <i class="ri-phone-line nav__icon"></i>
@@ -92,19 +101,20 @@
             <div class="d-grid home__wrapper container">
                 <div class="home__content">
                     <h1 class="home__title">
-                        I am <span class="home__name">Joshua a</span><br>
-                        Graphic Designer<br>
-                        & a Junior Dev.
+                        Hello, <span class="home__name">I am</span> <br>
+                        Joshua <br><span class="typing"></span>
                     </h1>
+
+
                     <p class="home__description">
-                        Hello, I am Joshua ,a Junior Web Developer.
+                        "Empowering Businesses Through Smart Development."
                     </p>
                     <a href="#contact" class="btn btn--primary">
                         <i class="ri-mail-line"></i>
                         Hire Me
                     </a>
                     <div class="social">
-                        <span class="social__title">Follow Me</span>
+                        <span class="social__title">Visit Us</span>
                         <ul class="social__list">
                             <li class="social__item">
                                 <a href="https://web.facebook.com/7fancy.bear" class="social__link">
@@ -133,22 +143,25 @@
             <div class="d-grid about__wrapper container">
                 <div class="about__content">
                     <span class="section__subtitle">About Me</span>
-                    <h2 class="section__title">I Design and Develop Experiences that
-                        make people's live simple.</h2>
-                    <p class="about__description">Hello there! I'm a simple and ambitious individual with a passion for self-improvement. I'm a boy with big dreams and an even bigger drive to turn those dreams into reality.
-
-I believe in the power of continuous learning, and currently, I'm on a journey to enhance my skills and broaden my horizons. Whether it's honing my professional skills or exploring new creative outlets, I thrive on the excitement of personal growth.
-
-In my world, every challenge is an opportunity, and every setback is a lesson. I'm not just building a career; I'm crafting a path that reflects my values and aspirations. Outside of my quest for self-improvement, you'll find me enjoying simple pleasures – a good book, a cup of coffee, or a quiet moment of reflection.
-
-Join me on this adventure of self-discovery and progress. Let's inspire and support each other as we strive to become the best versions of ourselves.</p>
-<a href="Joshua CV resume.pdf" download="Joshua CV resume.pdf" class="btn btn--primary">
-    <i class="ri-article-line"></i>Download CV
-</a>
+                    <h2 class="section__title">Transforming Ideas into Seamless Digital Experiences.</h2>
+                    <p class="about__description">
+                        Passionate about innovation, I specialize in crafting digital solutions that are not just functional but intuitive and impactful.  
+                        With a deep love for design and development, I bridge the gap between technology and user experience,  
+                        turning complex problems into elegant, efficient solutions.
+                    </p>
+                    <p class="about__description">
+                        Every project I take on is an opportunity to push boundaries, refine my skills, and deliver excellence.  
+                        I believe in continuous growth, embracing challenges, and building technology that makes life simpler,  
+                        smarter, and more connected.
+                    </p>
+                    <a href="CV_resume.pdf" download="CV_resume.pdf" class="btn btn--primary">
+                        <i class="ri-article-line"></i> Download CV
+                    </a>
                 </div>
                 <img src="assets/img/about.png" alt="Joshua Fernandez Añora" class="about__img">
             </div>
         </section>
+        
 
         <!--===================== Skills =====================-->
         <section id="skills" class="skills section section-bg">
@@ -159,47 +172,47 @@ Join me on this adventure of self-discovery and progress. Let's inspire and supp
             </div>
             <div class="d-grid skills__wrapper container">
                 <div class="skills__content">
-                    <h3 class="skills__title">UI/UX Design</h3>
+                    <h3 class="skills__title">Mobile Development</h3>
                     <div class="skills__content-wrapper">
                         <div class="skills__card">
                             <div class="skills__img-wrapper">
-                                <img src="assets/img/figma-logo.svg" alt="Figma Logo" class="skills__img">
+                                <img src="assets/img/react-native.png" alt="React Native Logo" class="skills__img">
                             </div>
-                            <h3 class="skills__name">Figma</h3>
+                            <h3 class="skills__name">React Native</h3>
                         </div>
                         <div class="skills__card">
                             <div class="skills__img-wrapper">
-                                <img src="assets/img/adobexd-logo.svg" alt="Adobe XD Logo" class="skills__img">
+                                <img src="assets/img/flutter.png" alt="Flutter Logo" class="skills__img">
                             </div>
-                            <h3 class="skills__name">Adobe XD</h3>
+                            <h3 class="skills__name">Flutter</h3>
                         </div>
                         <div class="skills__card">
                             <div class="skills__img-wrapper">
-                                <img src="assets/img/adobe-illustrator-logo.svg" alt="Illustrator Logo"
-                                    class="skills__img">
+                                <img src="assets/img/android.svg" alt="Android Studio Logo" class="skills__img">
                             </div>
-                            <h3 class="skills__name">Illustrator</h3>
+                            <h3 class="skills__name">Android Studio</h3>
                         </div>
                         <div class="skills__card">
                             <div class="skills__img-wrapper">
-                                <img src="assets/img/photoshop-logo.svg" alt="Photoshop Logo" class="skills__img">
+                                <img src="assets/img/firebase.png" alt="Firebase Logo" class="skills__img">
                             </div>
-                            <h3 class="skills__name">Photoshop</h3>
+                            <h3 class="skills__name">Firebase</h3>
                         </div>
                         <div class="skills__card">
                             <div class="skills__img-wrapper">
-                                <img src="assets/img/sketch-logo.svg" alt="Sketch Logo" class="skills__img">
+                                <img src="assets/img/sql.svg" alt="SQLite Logo" class="skills__img">
                             </div>
-                            <h3 class="skills__name">Sketch</h3>
+                            <h3 class="skills__name">SQLite</h3>
                         </div>
                         <div class="skills__card">
                             <div class="skills__img-wrapper">
-                                <img src="assets/img/invision-logo.jpg" alt="InVision Logo" class="skills__img">
+                                <img src="assets/img/vscode.svg" alt="Xcode Logo" class="skills__img">
                             </div>
-                            <h3 class="skills__name">InVision</h3>
+                            <h3 class="skills__name">VScode</h3>
                         </div>
                     </div>
                 </div>
+                
                 <div class="skills__content">
                     <h3 class="skills__title">Web Development</h3>
                     <div class="skills__content-wrapper">
@@ -283,18 +296,16 @@ Join me on this adventure of self-discovery and progress. Let's inspire and supp
             <div class="d-grid service__wrapper container">
                 <div class="service__content">
                     <span class="section__subtitle">My Services</span>
-                    <h2 class="section__title">What I Provide To My Clients</h2>
-
+                    <h2 class="section__title">Complete Development Solutions</h2>
+        
                     <p class="service__description">
-                        Branding and Visual Identity: Beyond functionality, I focus on creating a visual identity that resonates with your brand. From logos to color schemes, every element is carefully crafted to communicate your unique story.
-
-Front-End Development: Seamlessly translate designs into code. As a developer, I bring designs to life using the latest web technologies, ensuring a pixel-perfect and functional end product.
+                        As a Full-Stack Developer, I provide end-to-end solutions for mobile and web applications. From designing intuitive user interfaces to developing scalable backend systems, I ensure seamless digital experiences that meet business needs.
                     </p>
-
+        
                     <p class="service__description">
-                        Let's collaborate to elevate your digital presence. Together, we'll create experiences that not only meet industry standards but set new benchmarks for user-centric design and innovation.
+                        Whether it's building a feature-rich mobile app, crafting a high-performance website, or optimizing user experience, I bring technical expertise and a problem-solving mindset to every project.
                     </p>
-
+        
                     <a href="https://web.facebook.com/7fancy.bear" class="btn btn--primary">
                         <i class="ri-chat-3-line"></i>
                         Let's Talk
@@ -303,12 +314,34 @@ Front-End Development: Seamlessly translate designs into code. As a developer, I
                 <div class="service__info">
                     <div class="service__card">
                         <div class="service__icon">
+                            <i class="ri-smartphone-line"></i>
+                        </div>
+                        <div class="service__info-wrapper">
+                            <h3 class="service__info-title">Mobile Development</h3>
+                            <p class="service__description">
+                                I develop mobile applications for Android and iOS using React Native and Flutter. My apps are designed for performance, user engagement, and scalability.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__icon">
                             <i class="ri-code-line"></i>
                         </div>
                         <div class="service__info-wrapper">
-                            <h3 class="service__info-title">Frontend Development</h3>
+                            <h3 class="service__info-title">Web Development</h3>
                             <p class="service__description">
-                                Immerse your audience in a seamless and visually captivating online experience with our front-end development services. We specialize in translating your ideas into interactive and user-friendly websites. From responsive design to cross-browser compatibility, our focus is on creating web interfaces that not only look stunning but also function flawlessly. Elevate your digital presence with our expertise in HTML, CSS, JavaScript, and the latest front-end frameworks.
+                                I create modern and responsive web applications using React, Vite, and Tailwind CSS. From frontend to backend, I ensure secure, scalable, and high-performance solutions.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-server-line"></i>
+                        </div>
+                        <div class="service__info-wrapper">
+                            <h3 class="service__info-title">Backend Development</h3>
+                            <p class="service__description">
+                                I build robust and efficient backend systems using Laravel, Node.js, and Firebase. My expertise includes database management, API development, and server-side logic.
                             </p>
                         </div>
                     </div>
@@ -319,26 +352,14 @@ Front-End Development: Seamlessly translate designs into code. As a developer, I
                         <div class="service__info-wrapper">
                             <h3 class="service__info-title">UI/UX Design</h3>
                             <p class="service__description">
-                                Transform your digital platforms into intuitive and aesthetically pleasing spaces with our UX/UI design expertise. We go beyond creating visually appealing designs; we craft user experiences that resonate with your audience. Through user research, wireframing, prototyping, and user testing, we ensure that every interaction is purposeful and enjoyable. Elevate your brand with designs that marry functionality and beauty, enhancing user satisfaction and engagement.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="service__card">
-                        <div class="service__icon">
-                            <i class="ri-pen-nib-fill"></i>
-                        </div>
-                        <div class="service__info-wrapper">
-                            <h3 class="service__info-title">Graphic Design</h3>
-                            <p class="service__description">
-                                Capture attention and communicate your message effectively through our captivating graphic design solutions. Whether you need eye-catching marketing materials, compelling social media graphics, or a refreshed brand identity, we've got you covered. Our team blends creativity with strategic thinking to deliver designs that not only look great but also align with your brand strategy. Elevate your visual communication and stand out in a crowded digital landscape with our tailored graphic design services.
-
-
+                                I design intuitive and user-friendly interfaces using Figma and Adobe XD. My focus is on accessibility, user engagement, and seamless interaction across all platforms.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        
 
         <!--===================== Portfolio =====================-->
         <section id="portfolio" class="portfolio section">
@@ -347,66 +368,67 @@ Front-End Development: Seamlessly translate designs into code. As a developer, I
                 <h2 class="section__title">Featured Projects</h2>
             </div>
             <div class="d-grid portfolio__wrapper container">
+        
+                <!-- Web Development Project -->
                 <div class="portfolio__project">
                     <div class="portfolio__overlay"></div>
-                    <img src="assets/img/webDesign.jpg" alt="Website Design" class="portfolio__img">
+                    <img src="assets/img/carinderia.png" alt="Modern Website Development" class="portfolio__img">
                     <div class="portfolio__info">
                         <div class="portfolio__info-wrapper">
-                            <h3 class="portfolio__title">Website Design</h3>
+                            <h3 class="portfolio__title">Modern Website Development</h3>
                             <p class="portfolio__description">
-                         Experience paradise online with <br> our Island Travel website. Our visually stunning, responsive interface features immersive multimedia, interactive maps, and seamless booking integration. Redefine the online travel experience with us, where every click sparks the desire for the next adventure.
+                                A fully responsive and visually stunning website. Designed for seamless performance and an intuitive user experience, this project showcases interactive UI elements, animations, and optimized speed.
                             </p>
                         </div>
                     </div>
-                    <a href="https://wangd-e-v.github.io/island-travel-ph/" class="portfolio__link" target="_blank">
-                        <i class="ri-external-link-line"></i>
+                    <a href="https://github.com/wangD-e-v/LocalCarinderyaExpress" class="portfolio__link" target="_blank">
+                        <i class="ri-github-line"></i>
                     </a>
                 </div>
-
+        
+                <!-- Mobile App Development Project -->
                 <div class="portfolio__project">
                     <div class="portfolio__overlay"></div>
-                    <img src="assets/img/displayProject2.jpg" alt="App UI/UX Design " class="portfolio__img">
+                    <img src="assets/img/mobileproject.jpg" alt="Mobile App Development" class="portfolio__img">
                     <div class="portfolio__info">
                         <div class="portfolio__info-wrapper">
-                            <h3 class="portfolio__title">App UI/UX Design</h3>
+                            <h3 class="portfolio__title">Mobile App Development</h3>
                             <p class="portfolio__description">
-                                I crafted a sleek and user-friendly Simple Music Player app with a focus on intuitive
-                                navigation and a visually engaging interface. My UX/UI design ensures a seamless and
-                                enjoyable user experience, allowing music enthusiasts to effortlessly interact with the
-                                application.
+                                Developed a cross-platform mobile application using React Native. The app features a sleek design, smooth animations, and online functionality, providing users with a seamless experience on both Android and iOS devices.
                             </p>
                         </div>
                     </div>
-                    
-                    <a href="assets/img/project2.png" class="portfolio__link" target="_blank">
-                        <i class="ri-external-link-line"></i>
+                    <a href="https://github.com/wangD-e-v/TheSmartBite/tree/main" class="portfolio__link" target="_blank">
+                        <i class="ri-github-line"></i>
                     </a>
-                    
                 </div>
-
+        
+                <!-- UI/UX Design Project -->
                 <div class="portfolio__project">
                     <div class="portfolio__overlay"></div>
-                    <img src="assets/img/graphicDesign.png" alt="App Re-design" class="portfolio__img">
+                    <img src="assets/img/ui-ux.jpg" alt="UI/UX Design Showcase" class="portfolio__img">
                     <div class="portfolio__info">
                         <div class="portfolio__info-wrapper">
-                            <h3 class="portfolio__title">Graphic Design</h3>
+                            <h3 class="portfolio__title">UI/UX Design Showcase</h3>
                             <p class="portfolio__description">
-                                In this featured graphic design project, I crafted a dynamic sublimation T-shirt, complemented by distinctive brand and logo creations. Guided by inspirations , I strategically integrated vibrant color schemes, engaging illustrations, and typography to align with the client's identity or purpose. 
+                                Designed an intuitive and user-friendly interface for a mobile and web application. Created wireframes, prototypes, and high-fidelity UI designs to enhance usability and improve customer engagement.
                             </p>
                         </div>
                     </div>
-                    <a href="assets/img/GdesignCompilation.jpg" class="portfolio__link" target="_blank">
-                        <i class="ri-external-link-line"></i>
+                    <a href="https://github.com/wangD-e-v/flutter-UX-UI-design" class="portfolio__link" target="_blank">
+                        <i class="ri-github-line"></i>
                     </a>
                 </div>
+        
             </div>
         </section>
+        
 
         <!--===================== Testimonial =====================-->
         <section class="testimonial section section-bg">
             <div class="section__header container">
                 <span class="section__subtitle">Testimonials</span>
-                <h2 class="section__title">What Clients Are Saying About Me</h2>
+                <h2 class="section__title">What Clients Say About My Work</h2>
             </div>
             <div class="testimonial__wrapper container swiper">
                 <div class="swiper-wrapper">
@@ -416,123 +438,78 @@ Front-End Development: Seamlessly translate designs into code. As a developer, I
                         </div>
                         <div class="testimonial__card-wrapper">
                             <div class="testimonial__img-wrapper">
-                                <img src="assets/img/testimonial1.jpg" alt="Shawn Wallace" class="testimonial__img">
+                                <img src="assets/img/testimonial1.jpg" alt="Michael Carter" class="testimonial__img">
                             </div>
                             <div class="testimonial__data">
-                                <h3 class="testimonial__name">Shawn Wallace</h3>
-                                <p class="testimonial__occupation">Client</p>
+                                <h3 class="testimonial__name">Michael Carter</h3>
+                                <p class="testimonial__occupation">Startup Founder</p>
                             </div>
                         </div>
                         <p class="testimonial__quote">
-                            Your web development expertise has transformed our online presence. The seamless functionality and innovative features you implemented have significantly enhanced user experience and engagement. Your commitment to excellence truly sets our website apart, and we couldn't be happier with the results.
+                            Our mobile app went from an idea to a fully functional product, thanks to your expertise. The smooth performance and intuitive design have made it a hit among our users. Your ability to merge functionality with a great user experience is truly impressive.
                         </p>
                     </div>
-
+        
                     <div class="testimonial__card swiper-slide">
                         <div class="testimonial__card-icon">
                             <i class="ri-double-quotes-r"></i>
                         </div>
                         <div class="testimonial__card-wrapper">
                             <div class="testimonial__img-wrapper">
-                                <img src="assets/img/testimonial2.jpg" alt="Shawn Wallace" class="testimonial__img">
+                                <img src="assets/img/testimonial2.jpg" alt="Sophia Reynolds" class="testimonial__img">
                             </div>
                             <div class="testimonial__data">
-                                <h3 class="testimonial__name">Ashley Robie</h3>
-                                <p class="testimonial__occupation">Product Manager</p>
+                                <h3 class="testimonial__name">Sophia Reynolds</h3>
+                                <p class="testimonial__occupation">Business Owner</p>
                             </div>
                         </div>
                         <p class="testimonial__quote">
-                            The UX/UI design on our website is nothing short of phenomenal. Navigating through the pages feels intuitive, and the visually appealing layout captivates our audience. Your keen eye for design and understanding of user experience have elevated our brand, making every interaction with our website a delight.
+                            Your web development skills have taken our online platform to the next level. The site is lightning-fast, responsive, and user-friendly. We’ve received numerous compliments on the sleek design and smooth navigation, all thanks to your hard work!
                         </p>
                     </div>
-
+        
                     <div class="testimonial__card swiper-slide">
                         <div class="testimonial__card-icon">
                             <i class="ri-double-quotes-r"></i>
                         </div>
                         <div class="testimonial__card-wrapper">
                             <div class="testimonial__img-wrapper">
-                                <img src="assets/img/testimonial3.jpg" alt="Shawn Wallace" class="testimonial__img">
+                                <img src="assets/img/testimonial3.jpg" alt="Daniel Foster" class="testimonial__img">
                             </div>
                             <div class="testimonial__data">
-                                <h3 class="testimonial__name">Lee Elliot</h3>
-                                <p class="testimonial__occupation">Photographer</p>
+                                <h3 class="testimonial__name">Daniel Foster</h3>
+                                <p class="testimonial__occupation">Project Manager</p>
                             </div>
                         </div>
                         <p class="testimonial__quote">
-                            The graphic design work on our website is a masterpiece. The attention to detail, use of vibrant colors, and cohesive visual elements have brought our brand to life. Your creativity has not only made our website visually stunning but has also effectively communicated our brand identity. It's a true reflection of your exceptional graphic design skills.
+                            The backend system you developed is incredibly efficient and secure. Managing user data and transactions has never been easier. Your ability to build scalable and reliable server-side solutions is outstanding!
+                        </p>
+                    </div>
+        
+                    <div class="testimonial__card swiper-slide">
+                        <div class="testimonial__card-icon">
+                            <i class="ri-double-quotes-r"></i>
+                        </div>
+                        <div class="testimonial__card-wrapper">
+                            <div class="testimonial__img-wrapper">
+                                <img src="assets/img/testimonial2.jpg" alt="Emily Scott" class="testimonial__img">
+                            </div>
+                            <div class="testimonial__data">
+                                <h3 class="testimonial__name">Emily Scott</h3>
+                                <p class="testimonial__occupation">Product Designer</p>
+                            </div>
+                        </div>
+                        <p class="testimonial__quote">
+                            The UI/UX designs you created exceeded our expectations. The user flow feels natural, and every element is perfectly placed for an intuitive experience. Your attention to detail and understanding of user behavior have transformed our product’s usability.
                         </p>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
         </section>
+        
 
-        <!--===================== blog =====================-->
-        <section id="blog" class="blog section">
-            <div class="section__header container">
-                <span class="section__subtitle">My Blog</span>
-                <h2 class="section__title">Latest Posts & News</h2>
-            </div>
-            <div class="d-grid blog__wrapper container">
-                <div class="blog__post">
-                    <div class="blog__img-wrapper">
-                        <img src="assets/img/blog1.jpg" alt="" class="blog__img">
-                        <span class="blog__category">UI/UX Design</span>
-                    </div>
-                    <div class="blog__content">
-                        <h3 class="blog__title">3 UI/UX Design trends that made for 2024</h3>
-                        <p class="blog__description">
-            1. <b>and 3D Design:</b> As technology advances, designers may continue to explore more immersive and three-dimensional design elements. Integrating 3D graphics, effects, and interactive elements can create a more engaging and dynamic user experience.<br>
-            2. <b>Neomorphic Design:</b> Neomorphic design, a style characterized by soft shadows, minimalistic elements, and a focus on depth, gained traction in recent years. This trend might continue to evolve, offering interfaces that have a tactile and modern feel.<br>
-            3. <b>Reality (AR) and Virtual Reality (VR) Integration:</b> The integration of AR and VR elements in UX design could become more prevalent. Designers may explore ways to incorporate augmented reality features that enhance user interactions or virtual reality experiences that transport users to immersive digital environments.
-                        </p>
-                        <a href="javascript:void(0)" class="blog__link">
-                            Read More
-                            <i class="ri-arrow-right-s-line"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="blog__post">
-                    <div class="blog__img-wrapper">
-                        <img src="assets/img/blog2.jpg" alt="" class="blog__img">
-                        <span class="blog__category">UI/UX Design</span>
-                    </div>
-                    <div class="blog__content">
-                        <h3 class="blog__title">The 5 most used prototyping tools for UI/UX Designers in 2024</h3>
-                        <p class="blog__description">
-                        1. <b>Figma:</b> Cloud-based collaboration, real-time design, and prototyping for seamless team workflows and dynamic projects.<br>  
-                        2. <b>Adobe XD:</b> Adobe's UI/UX tool for interactive prototypes, design systems, and collaborative workflows with Creative Cloud integration.<br>
-                        3. <b>Sketch:</b> macOS vector-based design tool, popular for UI design; integrates plugins like InVision and Marvel for prototyping.<br>
-                        4. <b>InVision:</b> Prototyping tool with animated features, user testing, and collaboration; integrates seamlessly with design software.<br>
-                        5. <b>Proto.io:</b> prototyping tool for interactive designs; supports low-fidelity to high-fidelity prototypes, fostering ease and creativity.
-                        </p>
-                        <a href="javascript:void(0)" class="blog__link">
-                            Read More
-                            <i class="ri-arrow-right-s-line"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="blog__post">
-                    <div class="blog__img-wrapper">
-                        <img src="assets/img/blog3.jpg" alt="" class="blog__img">
-                        <span class="blog__category">Web Development</span>
-                    </div>
-                    <div class="blog__content">
-                        <h3 class="blog__title">React vs Vue: Which is Better and Why?</h3>
-                        <p class="blog__description">
-                            As we navigate the technological terrain of 2024, the choice between React and Vue has never been more pivotal. React, with its expansive ecosystem and battle-tested maturity, continues to dominate the UI development realm. Its versatility shines, offering a vast toolkit and industry-proven solutions. On the other side, Vue's simplicity and ease of integration appeal to those craving a lightweight yet powerful framework. The engaged Vue community fosters agility and clean coding practices.
-                        </p>
-                        <a href="javascript:void(0)" class="blog__link">
-                            Read More
-                            <i class="ri-arrow-right-s-line"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+    
 
         <!--===================== Contact =====================-->
         <section id="contact" class="contact section section-bg">
@@ -619,9 +596,7 @@ Front-End Development: Seamlessly translate designs into code. As a developer, I
                     <li class="footer__item">
                         <a href="#portfolio" class="footer__link">Portfolio</a>
                     </li>
-                    <li class="footer__item">
-                        <a href="#blog" class="footer__link">Blog</a>
-                    </li>
+                    
                     <li class="footer__item">
                         <a href="#contact" class="footer__link">Contact</a>
                     </li>
@@ -667,6 +642,42 @@ Front-End Development: Seamlessly translate designs into code. As a developer, I
 
     <!--=================== Main JS ====================-->
     <script src="assets/js/main.js"></script>
+
+    <script>
+        const words = ["a Mobile Dev", "a Web Dev"];
+        let currentWordIndex = 0;
+        let currentText = "";
+        let isDeleting = false;
+        let charIndex = 0;
+        const typingElement = document.querySelector(".typing");
+
+        function typeEffect() {
+            const currentWord = words[currentWordIndex];
+            
+            if (isDeleting) {
+                currentText = currentWord.substring(0, charIndex--);
+            } else {
+                currentText = currentWord.substring(0, charIndex++);
+            }
+
+            typingElement.textContent = currentText;
+
+            let typingSpeed = isDeleting ? 50 : 100;
+
+            if (!isDeleting && currentText === currentWord) {
+                typingSpeed = 2000; // Pause before deleting
+                isDeleting = true;
+            } else if (isDeleting && currentText === "") {
+                isDeleting = false;
+                currentWordIndex = (currentWordIndex + 1) % words.length;
+                typingSpeed = 1000; // Pause before typing next word
+            }
+
+            setTimeout(typeEffect, typingSpeed);
+        }
+
+        typeEffect(); // Start the typing effect
+    </script>
 </body>
 
 </html>
